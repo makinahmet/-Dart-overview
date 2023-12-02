@@ -47,12 +47,13 @@ void main()
   {
     print(i); //will printout 0,1,2,3,4
   }
+  
+  print("Function result is :" + sumFunction(3,5).toString());
+}//main
+
+//defining a function
+int sumFunction(int num1, int num2)
+{
+  return num1 + num2;
 }
-
-
-
-
-
-
-
 
