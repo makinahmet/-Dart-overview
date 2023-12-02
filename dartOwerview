@@ -1,0 +1,58 @@
+// all codes goes into main
+void main()
+{
+  //VARIABLE TYPES
+  int number1 = 5;            // number1 is an integer number, max and min value depends on the platform
+  double number2 = 3.14;      // number2 is a fractional number, max and min value depends on to platform
+  num number3 = 5.0;          // can be both integer or double
+  bool logical = true;        // logical is an boolean variable, can be true or false
+  String text = "Dart overview"; // text is a string variable. Max string length depends on to platform 
+  var namesAndNumbers = [3,6,9,"House", "Car", 3.14, "pi"]; // Dart has lists instead of arrays
+  var specialNumbers = {"pi": 3.14, "e": 2.71};
+
+  //Output to screen or console
+  print(number1);             //output variable directly
+  print("Pi is 3.14");        //output a string 
+  print("Pi is " + number2.toString());  //output string and a number variable together
+  print("This is $text");     //interpolation print. Output ill be "This is Dart overview" 
+  print(namesAndNumbers);     //output list directly
+  print(namesAndNumbers[0]);  //output lists first element
+  print(specialNumbers);      //output a map directly. if you want access a single map entry you need for loop
+  
+  /*Equality and relational operators
+  ==	Equal; see discussion below
+  !=	Not equal
+  >	Greater than
+  <	Less than
+  >=	Greater than or equal to
+  <=	Less than or equal to
+  */
+  
+  //IF ELSE STATEMENT
+  if(number1 > number2)
+  {
+    print("number1 is greater than number2");
+  }
+  else if(number1 < number2)
+  {
+    print("number1 is less than number2");
+  }
+  else
+  {
+    print("number1 is equal to number2");
+  }
+  
+  //FOR LOOP
+  for(int i = 0; i<5; i++)
+  {
+    print(i); //will printout 0,1,2,3,4
+  }
+}
+
+
+
+
+
+
+
+
